@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card h3 {
+    margin: 16px 0 8px;
+}
+
+.card p {
+    padding: 0 16px 16px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
